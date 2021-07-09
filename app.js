@@ -9,7 +9,7 @@ import router from './router';
     domain,
     client_id,
     redirect_uri,
-    acheLocation: 'localstorage',
+    cacheLocation: 'localstorage',
     audience: 'https://expenses-api',
     scope: 'read:reports',
   });
